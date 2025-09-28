@@ -1,4 +1,4 @@
-import { Heart, ArrowUp, Mail, Phone, Linkedin, Github } from "lucide-react";
+import { Heart, ArrowUp, Mail, Phone, Linkedin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Footer = () => {
@@ -13,11 +13,6 @@ const Footer = () => {
       icon: <Linkedin className="w-5 h-5" />,
       href: "https://linkedin.com/in/vaibhavpratapsingh",
       label: "LinkedIn"
-    },
-    {
-      icon: <Github className="w-5 h-5" />,
-      href: "#",
-      label: "GitHub"
     },
     {
       icon: <Mail className="w-5 h-5" />,
@@ -55,6 +50,7 @@ const Footer = () => {
                   key={link}
                   onClick={() => document.getElementById(link.toLowerCase())?.scrollIntoView({ behavior: 'smooth' })}
                   className="text-neutral-400 hover:text-white transition-colors duration-300"
+                  aria-label={`Navigate to ${link} section`}
                 >
                   {link}
                 </button>
@@ -97,8 +93,9 @@ const Footer = () => {
               size="sm"
               onClick={scrollToTop}
               className="text-neutral-400 hover:text-white hover:bg-neutral-800"
+              aria-label="Scroll back to top of page"
             >
-              <ArrowUp className="w-4 h-4" />
+              <ArrowUp className="w-4 h-4" aria-hidden="true" />
               Back to top
             </Button>
           </div>

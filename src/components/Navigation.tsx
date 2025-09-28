@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Download } from "lucide-react";
+import { Menu, X, Mail } from "lucide-react";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -44,6 +44,7 @@ const Navigation = () => {
           <button
             onClick={() => scrollToSection('#hero')}
             className="text-2xl font-bold gradient-text hover:scale-105 transition-transform duration-300"
+            aria-label="Go to home section"
           >
             Vaibhav
           </button>
@@ -65,9 +66,10 @@ const Navigation = () => {
               variant={isScrolled ? "default" : "outline"}
               size="sm"
               className={isScrolled ? "" : "border-white text-white hover:bg-white hover:text-primary"}
+              onClick={() => scrollToSection('#contact')}
             >
-              <Download className="w-4 h-4" />
-              Resume
+              <Mail className="w-4 h-4" />
+              Contact Me
             </Button>
           </div>
 
@@ -77,8 +79,10 @@ const Navigation = () => {
             className={`md:hidden p-2 transition-colors duration-300 ${
               isScrolled ? 'text-neutral-700' : 'text-white'
             }`}
+            aria-label={isOpen ? 'Close navigation menu' : 'Open navigation menu'}
+            aria-expanded={isOpen}
           >
-            {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            {isOpen ? <X className="w-6 h-6" aria-hidden="true" /> : <Menu className="w-6 h-6" aria-hidden="true" />}
           </button>
         </div>
 
@@ -96,9 +100,14 @@ const Navigation = () => {
                 </button>
               ))}
               <div className="px-6 py-3">
-                <Button variant="default" size="sm" className="w-full">
-                  <Download className="w-4 h-4" />
-                  Download Resume
+                <Button 
+                  variant="default" 
+                  size="sm" 
+                  className="w-full"
+                  onClick={() => scrollToSection('#contact')}
+                >
+                  <Mail className="w-4 h-4" />
+                  Contact Me
                 </Button>
               </div>
             </div>

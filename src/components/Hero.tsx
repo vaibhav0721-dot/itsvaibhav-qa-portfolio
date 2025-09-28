@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ChevronDown, Download, Mail, Phone, MapPin, Linkedin, Github } from "lucide-react";
+import { ChevronDown, Mail, Phone, MapPin, Linkedin } from "lucide-react";
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -41,15 +41,15 @@ const Hero = () => {
         {/* Contact Info */}
         <div className="animate-fade-in-up-delay flex flex-wrap justify-center gap-6 mb-8 text-white/90">
           <div className="flex items-center gap-2">
-            <Phone className="w-4 h-4" />
+            <Phone className="w-4 h-4" aria-hidden="true" />
             <span>+91-8770067658</span>
           </div>
           <div className="flex items-center gap-2">
-            <Mail className="w-4 h-4" />
+            <Mail className="w-4 h-4" aria-hidden="true" />
             <span>vaibhavsinghofficial21@gmail.com</span>
           </div>
           <div className="flex items-center gap-2">
-            <MapPin className="w-4 h-4" />
+            <MapPin className="w-4 h-4" aria-hidden="true" />
             <span>Gurugram, India</span>
           </div>
         </div>
@@ -69,9 +69,10 @@ const Hero = () => {
             variant="outline" 
             size="lg"
             className="border-white text-white hover:bg-white hover:text-primary"
+            onClick={() => window.open('https://linkedin.com/in/vaibhavpratapsingh', '_blank')}
           >
-            <Download className="w-5 h-5" />
-            Download Resume
+            <Linkedin className="w-5 h-5" />
+            View LinkedIn
           </Button>
         </div>
         
@@ -82,16 +83,9 @@ const Hero = () => {
             target="_blank" 
             rel="noopener noreferrer"
             className="p-3 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-110"
+            aria-label="Connect with Vaibhav on LinkedIn"
           >
-            <Linkedin className="w-6 h-6" />
-          </a>
-          <a 
-            href="#" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="p-3 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-110"
-          >
-            <Github className="w-6 h-6" />
+            <Linkedin className="w-6 h-6" aria-hidden="true" />
           </a>
         </div>
         
@@ -102,8 +96,9 @@ const Hero = () => {
             size="icon"
             onClick={() => scrollToSection('about')}
             className="text-white hover:text-white hover:bg-white/10"
+            aria-label="Scroll to About section"
           >
-            <ChevronDown className="w-6 h-6" />
+            <ChevronDown className="w-6 h-6" aria-hidden="true" />
           </Button>
         </div>
       </div>

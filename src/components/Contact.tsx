@@ -17,10 +17,44 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    
+    // Validate form
+    if (!formData.name.trim() || !formData.email.trim() || !formData.subject.trim() || !formData.message.trim()) {
+      toast({
+        title: "Please fill in all fields",
+        description: "All fields are required to send your message.",
+        variant: "destructive"
+      });
+      return;
+    }
+
+    // Email validation
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(formData.email)) {
+      toast({
+        title: "Invalid email address",
+        description: "Please enter a valid email address.",
+        variant: "destructive"
+      });
+      return;
+    }
+
+    // Create mailto link with form data
+    const subject = encodeURIComponent(formData.subject);
+    const body = encodeURIComponent(
+      `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
+    );
+    const mailtoLink = `mailto:vaibhavsinghofficial21@gmail.com?subject=${subject}&body=${body}`;
+    
+    // Open email client
+    window.location.href = mailtoLink;
+    
     toast({
-      title: "Message Sent!",
-      description: "Thank you for your message. I'll get back to you soon.",
+      title: "Opening email client...",
+      description: "Your default email application should open with the message pre-filled.",
     });
+    
+    // Reset form
     setFormData({ name: '', email: '', subject: '', message: '' });
   };
 
@@ -148,7 +182,10 @@ const Contact = () => {
                     onChange={handleChange}
                     placeholder="Enter your name"
                     required
+                    aria-describedby="name-help"
+                    autoComplete="name"
                   />
+                  <div id="name-help" className="sr-only">Enter your full name</div>
                 </div>
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-card-foreground mb-2">
@@ -162,7 +199,10 @@ const Contact = () => {
                     onChange={handleChange}
                     placeholder="Enter your email"
                     required
+                    aria-describedby="email-help"
+                    autoComplete="email"
                   />
+                  <div id="email-help" className="sr-only">Enter a valid email address</div>
                 </div>
               </div>
               
@@ -177,7 +217,9 @@ const Contact = () => {
                   onChange={handleChange}
                   placeholder="What's this about?"
                   required
+                  aria-describedby="subject-help"
                 />
+                <div id="subject-help" className="sr-only">Brief description of your inquiry</div>
               </div>
               
               <div>
@@ -192,7 +234,9 @@ const Contact = () => {
                   placeholder="Tell me about your project or inquiry..."
                   rows={6}
                   required
+                  aria-describedby="message-help"
                 />
+                <div id="message-help" className="sr-only">Detailed description of your project or inquiry</div>
               </div>
               
               <Button 
