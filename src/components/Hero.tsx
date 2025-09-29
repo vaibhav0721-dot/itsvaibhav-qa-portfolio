@@ -21,29 +21,29 @@ const Hero = () => {
       <div className="relative z-10 text-center text-white px-6 max-w-4xl mx-auto">
         <div className="animate-fade-in-up">
           {/* Professional Avatar/Bitmoji */}
-          <div className="w-32 h-32 mx-auto mb-8 relative">
+          <div className="w-28 h-28 sm:w-32 sm:h-32 mx-auto mb-8 mt-8 relative">
             <div className="w-full h-full rounded-full bg-gradient-primary p-1 animate-pulse-glow">
-              <div className="w-full h-full rounded-full bg-neutral-50/10 backdrop-blur-sm flex items-center justify-center text-6xl font-bold text-white">
+              <div className="w-full h-full rounded-full bg-neutral-50/10 backdrop-blur-sm flex items-center justify-center text-4xl sm:text-6xl font-bold text-white">
                 👨‍💻
               </div>
             </div>
-            <div className="absolute -inset-2 bg-gradient-primary rounded-full blur-xl opacity-30 animate-pulse-glow"></div>
+            <div className="absolute -inset-2 bg-gradient-primary rounded-full blur-xl opacity-20 animate-pulse-glow"></div>
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight relative">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 sm:mb-6 leading-tight relative px-4">
             <span className="block relative">
-              <span className="relative z-10 bg-gradient-to-r from-white via-blue-200 to-cyan-300 bg-clip-text text-transparent filter drop-shadow-2xl">
+              <span className="relative z-10 bg-gradient-to-r from-white via-blue-200 to-cyan-300 bg-clip-text text-transparent">
                 Vaibhav
               </span>
-              <span className="absolute inset-0 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent blur-sm opacity-50 scale-110">
+              <span className="absolute inset-0 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent blur-sm opacity-25 scale-105">
                 Vaibhav
               </span>
             </span>
-            <span className="block relative mt-2">
-              <span className="relative z-10 bg-gradient-to-r from-cyan-300 via-blue-300 to-white bg-clip-text text-transparent filter drop-shadow-2xl">
+            <span className="block relative mt-1 sm:mt-2">
+              <span className="relative z-10 bg-gradient-to-r from-cyan-300 via-blue-300 to-white bg-clip-text text-transparent">
                 Pratap Singh
               </span>
-              <span className="absolute inset-0 bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent blur-sm opacity-50 scale-110">
+              <span className="absolute inset-0 bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent blur-sm opacity-25 scale-105">
                 Pratap Singh
               </span>
             </span>
@@ -51,24 +51,28 @@ const Hero = () => {
         </div>
         
         <div className="animate-fade-in-up-delay">
-          <p className="text-xl md:text-2xl font-medium mb-4 text-white/90">
-            QA Engineer & Software Testing Specialist
-          </p>
-          <p className="text-lg mb-8 text-white/80 max-w-2xl mx-auto leading-relaxed">
+          <div className="flex items-center justify-center gap-3 mb-4">
+            <span className="text-3xl sm:text-4xl">🔍</span>
+            <p className="text-lg sm:text-xl md:text-2xl font-medium text-white/90">
+              QA Engineer & Software Testing Specialist
+            </p>
+            <span className="text-3xl sm:text-4xl">⚡</span>
+          </div>
+          <p className="text-base sm:text-lg mb-6 sm:mb-8 text-white/80 max-w-2xl mx-auto leading-relaxed px-4">
             Detail-oriented QA professional with expertise in manual and automated testing, 
             API testing, and performance optimization. Passionate about delivering high-quality software solutions.
           </p>
         </div>
         
         {/* Contact Info */}
-        <div className="animate-fade-in-up-delay flex flex-wrap justify-center gap-6 mb-8 text-white/90">
+        <div className="animate-fade-in-up-delay flex flex-wrap justify-center gap-4 sm:gap-6 mb-6 sm:mb-8 text-sm sm:text-base text-white/90 px-4">
           <div className="flex items-center gap-2">
             <Phone className="w-4 h-4" aria-hidden="true" />
-            <span>+91-8770067658</span>
+            <span className="break-all sm:break-normal">+91-8770067658</span>
           </div>
           <div className="flex items-center gap-2">
             <Mail className="w-4 h-4" aria-hidden="true" />
-            <span>vaibhavsinghofficial21@gmail.com</span>
+            <span className="break-all sm:break-normal">vaibhavsinghofficial21@gmail.com</span>
           </div>
           <div className="flex items-center gap-2">
             <MapPin className="w-4 h-4" aria-hidden="true" />
@@ -77,12 +81,12 @@ const Hero = () => {
         </div>
         
         {/* Action Buttons */}
-        <div className="animate-fade-in-up-delay flex flex-col sm:flex-row gap-4 justify-center mb-12">
+        <div className="animate-fade-in-up-delay flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center mb-8 sm:mb-12 px-4">
           <Button 
             variant="hero" 
             size="lg"
             onClick={() => scrollToSection('contact')}
-            className="shadow-glow hover:shadow-electric-glow transition-all duration-300 hover:scale-105 glow-border"
+            className="shadow-glow hover:shadow-electric-glow transition-all duration-300 hover:scale-105 glow-border w-full sm:w-auto"
           >
             <Mail className="w-5 h-5" />
             Get In Touch
@@ -90,7 +94,7 @@ const Hero = () => {
           <Button 
             variant="outline" 
             size="lg"
-            className="border-white/30 text-white hover:bg-white/10 hover:text-cyan-300 hover:border-cyan-300 transition-all duration-300 hover:scale-105 hover:shadow-blue-glow backdrop-blur-sm"
+            className="border-white/30 text-white hover:bg-white/10 hover:text-cyan-300 hover:border-cyan-300 transition-all duration-300 hover:scale-105 hover:shadow-blue-glow backdrop-blur-sm w-full sm:w-auto"
             onClick={() => window.open('https://www.linkedin.com/in/vaibhav-pratap-singh-370305239', '_blank')}
           >
             <Linkedin className="w-5 h-5" />
