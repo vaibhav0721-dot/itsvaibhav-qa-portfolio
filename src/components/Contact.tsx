@@ -87,8 +87,8 @@ const Contact = () => {
     {
       icon: <Linkedin className="w-6 h-6 text-accent" />,
       title: "LinkedIn",
-      value: "linkedin.com/in/vaibhavpratapsingh",
-      href: "https://linkedin.com/in/vaibhavpratapsingh"
+      value: "linkedin.com/in/vaibhav-pratap-singh-370305239",
+      href: "https://www.linkedin.com/in/vaibhav-pratap-singh-370305239"
     }
   ];
 

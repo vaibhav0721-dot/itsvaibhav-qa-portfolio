@@ -60,6 +60,8 @@ export default {
       boxShadow: {
         'glow': 'var(--shadow-glow)',
         'accent': 'var(--shadow-accent)',
+        'blue-glow': 'var(--shadow-blue-glow)',
+        'electric-glow': 'var(--shadow-electric-glow)',
       },
       transitionTimingFunction: {
         'smooth': 'cubic-bezier(0.4, 0, 0.2, 1)',

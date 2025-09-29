@@ -69,7 +69,7 @@ const Hero = () => {
             variant="outline" 
             size="lg"
             className="border-white text-white hover:bg-white hover:text-primary"
-            onClick={() => window.open('https://linkedin.com/in/vaibhavpratapsingh', '_blank')}
+            onClick={() => window.open('https://www.linkedin.com/in/vaibhav-pratap-singh-370305239', '_blank')}
           >
             <Linkedin className="w-5 h-5" />
             View LinkedIn
@@ -79,7 +79,7 @@ const Hero = () => {
         {/* Social Links */}
         <div className="animate-fade-in-up-delay flex justify-center gap-6 mb-12">
           <a 
-            href="https://linkedin.com/in/vaibhavpratapsingh" 
+            href="https://www.linkedin.com/in/vaibhav-pratap-singh-370305239" 
             target="_blank" 
             rel="noopener noreferrer"
             className="p-3 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-110"

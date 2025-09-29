@@ -50,8 +50,8 @@ const About = () => {
               <h3 className="text-2xl font-bold mb-4 text-card-foreground">My Journey</h3>
               <div className="space-y-4 text-neutral-600">
                 <p>
-                  Currently pursuing my Bachelor's in Computer Science Engineering from APJ Abdul Kalam 
-                  Technical University, I've gained extensive hands-on experience in software testing 
+                  Completed my Bachelor's in Computer Science Engineering from APJ Abdul Kalam 
+                  Technical University. I've gained extensive hands-on experience in software testing 
                   through internships and apprenticeships.
                 </p>
                 <p>

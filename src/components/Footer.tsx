@@ -11,7 +11,7 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: <Linkedin className="w-5 h-5" />,
-      href: "https://linkedin.com/in/vaibhavpratapsingh",
+      href: "https://www.linkedin.com/in/vaibhav-pratap-singh-370305239",
       label: "LinkedIn"
     },
     {
