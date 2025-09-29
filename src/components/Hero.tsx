@@ -20,10 +20,32 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 text-center text-white px-6 max-w-4xl mx-auto">
         <div className="animate-fade-in-up">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            <span className="block">Vaibhav</span>
-            <span className="block gradient-text bg-gradient-to-r from-white to-white/80 bg-clip-text text-transparent">
-              Pratap Singh
+          {/* Professional Avatar/Bitmoji */}
+          <div className="w-32 h-32 mx-auto mb-8 relative">
+            <div className="w-full h-full rounded-full bg-gradient-primary p-1 animate-pulse-glow">
+              <div className="w-full h-full rounded-full bg-neutral-50/10 backdrop-blur-sm flex items-center justify-center text-6xl font-bold text-white">
+                👨‍💻
+              </div>
+            </div>
+            <div className="absolute -inset-2 bg-gradient-primary rounded-full blur-xl opacity-30 animate-pulse-glow"></div>
+          </div>
+          
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight relative">
+            <span className="block relative">
+              <span className="relative z-10 bg-gradient-to-r from-white via-blue-200 to-cyan-300 bg-clip-text text-transparent filter drop-shadow-2xl">
+                Vaibhav
+              </span>
+              <span className="absolute inset-0 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent blur-sm opacity-50 scale-110">
+                Vaibhav
+              </span>
+            </span>
+            <span className="block relative mt-2">
+              <span className="relative z-10 bg-gradient-to-r from-cyan-300 via-blue-300 to-white bg-clip-text text-transparent filter drop-shadow-2xl">
+                Pratap Singh
+              </span>
+              <span className="absolute inset-0 bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent blur-sm opacity-50 scale-110">
+                Pratap Singh
+              </span>
             </span>
           </h1>
         </div>
@@ -60,7 +82,7 @@ const Hero = () => {
             variant="hero" 
             size="lg"
             onClick={() => scrollToSection('contact')}
-            className="shadow-glow"
+            className="shadow-glow hover:shadow-electric-glow transition-all duration-300 hover:scale-105 glow-border"
           >
             <Mail className="w-5 h-5" />
             Get In Touch
@@ -68,7 +90,7 @@ const Hero = () => {
           <Button 
             variant="outline" 
             size="lg"
-            className="border-white text-white hover:bg-white hover:text-primary"
+            className="border-white/30 text-white hover:bg-white/10 hover:text-cyan-300 hover:border-cyan-300 transition-all duration-300 hover:scale-105 hover:shadow-blue-glow backdrop-blur-sm"
             onClick={() => window.open('https://www.linkedin.com/in/vaibhav-pratap-singh-370305239', '_blank')}
           >
             <Linkedin className="w-5 h-5" />
@@ -82,10 +104,10 @@ const Hero = () => {
             href="https://www.linkedin.com/in/vaibhav-pratap-singh-370305239" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="p-3 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-110"
+            className="p-4 rounded-full bg-white/5 backdrop-blur-sm border border-white/20 hover:bg-white/10 transition-all duration-300 hover:scale-110 hover:shadow-electric-glow glow-border"
             aria-label="Connect with Vaibhav on LinkedIn"
           >
-            <Linkedin className="w-6 h-6" aria-hidden="true" />
+            <Linkedin className="w-7 h-7 text-cyan-300" aria-hidden="true" />
           </a>
         </div>
         
@@ -95,7 +117,7 @@ const Hero = () => {
             variant="ghost" 
             size="icon"
             onClick={() => scrollToSection('about')}
-            className="text-white hover:text-white hover:bg-white/10"
+            className="text-white hover:text-cyan-300 hover:bg-white/10 transition-all duration-300 hover:scale-110 hover:shadow-blue-glow"
             aria-label="Scroll to About section"
           >
             <ChevronDown className="w-6 h-6" aria-hidden="true" />
