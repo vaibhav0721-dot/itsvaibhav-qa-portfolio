@@ -59,7 +59,7 @@ const Hero = () => {
             <span className="text-3xl sm:text-4xl">⚡</span>
           </div>
           <p className="text-base sm:text-lg mb-6 sm:mb-8 text-white/80 max-w-2xl mx-auto leading-relaxed px-4">
-            QA Engineer with 1+ year of experience testing enterprise AI platforms and supporting AI adoption across global legal tech applications. Built a keyword-driven automation framework that cut regression time by 30%, while leading test planning and owning releases across multiple products.
+            QA Engineer with 1+ year of experience testing enterprise AI platforms and supporting AI adoption across the firm. Built a keyword-driven automation framework that cut regression time by 30%, while leading test planning and owning releases across multiple products.
           </p>
         </div>
         

@@ -53,7 +53,7 @@ const About = () => {
                 <p>
                   Completed my B.Tech in Computer Science from AKTU and quickly took ownership of testing 
                   enterprise AI platforms at Clifford Chance Business Services — supporting AI adoption 
-                  and ensuring quality across multiple legal tech applications.
+                  across the firm and ensuring quality across multiple legal tech applications.
                 </p>
                 <p>
                   I don't just find bugs — I lead test planning, build automation frameworks, and own 
