@@ -59,7 +59,7 @@ const Hero = () => {
             <span className="text-3xl sm:text-4xl">⚡</span>
           </div>
           <p className="text-base sm:text-lg mb-6 sm:mb-8 text-white/80 max-w-2xl mx-auto leading-relaxed px-4">
-            QA Engineer with over a year of experience in legal AI, specializing in end-to-end testing of enterprise applications across manual, automation, API, and database layers.
+            QA Engineer with 1+ year of experience in legal AI, owning end-to-end testing of enterprise applications. Built a keyword-driven automation framework that cut regression time by 30%, while leading test planning and coordinating releases across multiple applications.
           </p>
         </div>
         

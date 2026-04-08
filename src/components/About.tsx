@@ -39,8 +39,8 @@ const About = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 gradient-text">About Me</h2>
           <p className="text-xl text-neutral-600 max-w-3xl mx-auto leading-relaxed">
-            QA Engineer with over a year of experience in legal AI, specializing in end-to-end testing 
-            of enterprise applications across manual, automation, API, and database layers.
+            QA Engineer who takes ownership of quality — from designing test strategies to coordinating releases. 
+            I lead testing efforts on AI-powered enterprise platforms, driving a 30% reduction in regression time through automation.
           </p>
         </div>
 
@@ -51,19 +51,18 @@ const About = () => {
               <h3 className="text-2xl font-bold mb-4 text-card-foreground">My Journey</h3>
               <div className="space-y-4 text-neutral-600">
                 <p>
-                  Completed my Bachelor of Technology in Computer Science Engineering from APJ Abdul Kalam 
-                  Technical University (AKTU). Currently working as a Software Test Engineer at Clifford 
-                  Chance Business Services, specializing in legal AI enterprise applications.
+                  Completed my B.Tech in Computer Science from AKTU and jumped straight into the deep end — 
+                  owning quality for AI-powered legal platforms at Clifford Chance Business Services as a 
+                  Software Test Engineer.
                 </p>
                 <p>
-                  Designed structured test plans and cases in Azure DevOps and delivered a keyword-driven 
-                  automation framework that cut regression time by 30%. Skilled at analyzing user requirements, 
-                  writing clear defect reports, and collaborating in Agile teams.
+                  I don't just find bugs — I lead test planning, design automation frameworks, and coordinate 
+                  releases across multiple applications. My keyword-driven framework cut regression time by 30%, 
+                  and I take full ownership of quality from sprint planning to production.
                 </p>
                 <p>
-                  My experience spans manual testing, Selenium automation, API testing with Postman, 
-                  database testing with SQL, and performance testing with JMeter across AI-driven platforms 
-                  and Learning Management Systems.
+                  Whether it's building Selenium automation, validating AI outputs, stress-testing APIs with 
+                  Postman, or running load tests in JMeter — I make sure nothing ships unless it's solid.
                 </p>
               </div>
             </Card>
