@@ -5,37 +5,39 @@ import { Building, Calendar, MapPin, CheckCircle } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      title: "QA Engineer, Apprentice",
+      title: "Software Test Engineer",
       company: "Clifford Chance Business Services Pvt Ltd",
-      location: "Gurugram, India",
-      duration: "March 2025 – Nov 2025",
-      type: "Apprentice",
+      location: "Gurugram / Delhi, India",
+      duration: "Mar 2025 – Present",
+      type: "Full-time",
       achievements: [
-        "Performed end-to-end quality assurance on the CC Assist AI platform, focusing on key modules such as document review, timesheets, and worksheets",
-        "Executed both manual and automated tests to ensure functionality, UI consistency, and accuracy of AI-generated outputs",
-        "Actively contributed in an Agile environment, collaborating with developers and logging issues in Rally",
-        "Designed and executed regression and UI test scripts using Keyword Driven Framework",
-        "Performed REST API testing for backend validations using Postman; validated status codes and payloads",
-        "Ensured cross-browser UI consistency and layout integrity using Chrome DevTools",
-        "Ran performance and load tests on critical features using JMeter, identifying system bottlenecks"
+        "Performed end-to-end quality assurance using modern testing methodologies for enterprise AI platforms, validating complex workflows across document review, timesheets, and legal operations with Azure DevOps and Copilot AI Agents",
+        "Analyzed user stories and requirements to design structured test cases, scenarios, and test plans in Azure Test Plans and Azure DevOps, ensuring comprehensive feature coverage",
+        "Executed manual, automated, API, and database testing with Selenium, Postman, and SQL scripts to validate system behavior, data integrity, and AI-generated outputs",
+        "Designed and executed regression and UI automation scripts using a Keyword Driven Framework, improving repeatability and test efficiency",
+        "Performed REST API testing using Postman to validate request/response payloads, status codes, and backend integrations",
+        "Identified, reproduced, and documented defects with clear, detailed steps in Azure Test Plans and Rally",
+        "Conducted exploratory testing to assess product robustness, uncover edge cases, and improve system reliability",
+        "Executed performance and load testing using JMeter, identifying bottlenecks and improving system scalability",
+        "Collaborated with developers, QA engineers, and stakeholders in Agile sprints using Azure DevOps to prioritize testing based on business risk",
+        "Owned testing for multiple applications and coordinated releases using Azure Test Plans and Microsoft Azure DevOps"
       ],
-      skills: ["Keyword Driven Testing", "API Testing", "Performance Testing", "Agile", "Rally", "JMeter", "Postman"]
+      skills: ["Selenium", "Azure DevOps", "Keyword Driven Framework", "API Testing", "Performance Testing", "Agile", "JMeter", "Postman", "Copilot AI Agents"]
     },
     {
       title: "QA Engineer, Intern",
       company: "Cuvette Tech",
       location: "Remote",
-      duration: "June 2024 – Dec 2025",
+      duration: "Jun 2024 – Dec 2024",
       type: "Internship",
       achievements: [
-        "Gained hands-on experience in testing web applications built with HTML, CSS, JavaScript, and React.js",
-        "Developed a strong understanding of web design principles and responsive layouts",
-        "Designed and executed detailed manual test cases for functional, UI, and negative testing",
-        "Validated user flows, edge cases, and form validations",
-        "Performed exploratory testing to uncover hidden bugs and usability issues",
-        "Verified compliance with UI/UX standards and design guidelines"
+        "Performed quality assurance testing on web applications built with HTML, CSS, JavaScript, and React.js, applying modern testing methodologies",
+        "Designed and executed detailed manual test cases covering functional, UI, negative, and edge-case scenarios, uncovering critical defects",
+        "Performed exploratory testing to identify usability issues and hidden defects, improving product quality",
+        "Validated user workflows, form validations, and system behaviour against requirements and design standards",
+        "Collaborated in a startup environment, adopting Agile testing methodologies to accelerate testing cycles"
       ],
-      skills: ["Manual Testing", "React.js Testing", "UI/UX Testing", "Exploratory Testing", "Web Technologies"]
+      skills: ["Manual Testing", "React.js Testing", "UI/UX Testing", "Exploratory Testing", "Agile"]
     }
   ];
 

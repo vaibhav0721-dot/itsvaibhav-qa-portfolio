@@ -67,7 +67,7 @@ const Hero = () => {
         <div className="animate-fade-in-up-delay flex flex-wrap justify-center gap-4 sm:gap-6 mb-6 sm:mb-8 text-sm sm:text-base text-white/90 px-4">
           <div className="flex items-center gap-2">
             <Phone className="w-4 h-4" aria-hidden="true" />
-            <span className="break-all sm:break-normal">+91-8770067658</span>
+            <span className="break-all sm:break-normal">+91-8770067659</span>
           </div>
           <div className="flex items-center gap-2">
             <Mail className="w-4 h-4" aria-hidden="true" />

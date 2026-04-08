@@ -37,7 +37,7 @@ const Footer = () => {
             </h3>
             <div className="flex items-center justify-center md:justify-start gap-2 text-neutral-400">
               <span className="text-lg">🔍</span>
-              <span className="text-sm sm:text-base">QA Engineer & Software Testing Specialist</span>
+              <span className="text-sm sm:text-base">Software Test Engineer</span>
               <span className="text-lg">⚡</span>
             </div>
           </div>

@@ -27,9 +27,10 @@ const About = () => {
   ];
 
   const skills = [
-    "Quality Assurance", "Manual Testing", "Automated Testing", "API Testing", 
+    "Quality Assurance", "Manual Testing", "Automation Testing", "API Testing", 
     "Performance Testing", "Database Testing", "Agile Methodology", "Test Case Design",
-    "Regression Testing", "UI/UX Testing", "Cross-browser Testing", "Risk Assessment"
+    "Defect Management", "Exploratory Testing", "Selenium", "Azure DevOps",
+    "Power Automate", "Copilot AI Agents", "Test Management Tools"
   ];
 
   return (

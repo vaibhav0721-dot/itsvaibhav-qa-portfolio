@@ -83,7 +83,7 @@ const Skills = () => {
 
   const frameworks = [
     "Agile/Scrum", "Keyword Driven Framework", "DevOps", "CI/CD", 
-    "Test-Driven Development", "Behavior-Driven Development"
+    "Test-Driven Development", "Defect Management", "Test Management Tools"
   ];
 
   return (

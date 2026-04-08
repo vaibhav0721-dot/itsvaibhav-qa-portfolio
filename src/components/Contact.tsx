@@ -157,7 +157,7 @@ const Contact = () => {
                 <Button 
                   variant="outline" 
                   className="flex-1"
-                  onClick={() => window.location.href = 'tel:+918770067658'}
+                  onClick={() => window.location.href = 'tel:+918770067659'}
                 >
                   <Phone className="w-4 h-4" />
                   Call Now

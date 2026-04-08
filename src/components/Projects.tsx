@@ -7,16 +7,16 @@ const Projects = () => {
   const projects = [
     {
       title: "CC Assist",
-      subtitle: "AI-driven Platform",
+      subtitle: "AI-driven Legal Platform",
       icon: <Cpu className="w-8 h-8 text-primary" />,
-      description: "Contributed to the quality assurance of an AI-driven platform focused on document analysis, timesheet automation and other features. Validated feature functionality and AI behavior through manual test execution and automation scripts.",
+      description: "Created and managed detailed test cases and scenarios in Azure Test Plans based on user stories to validate document intelligence, timesheet automation, and workflow features of an AI-driven legal platform.",
       achievements: [
-        "Validated AI model accuracy and system performance across multiple deployments",
-        "Provided detailed feedback on model behavior to support continuous improvement",
-        "Ensured end-to-end functionality of document analysis features",
-        "Implemented comprehensive testing strategies for timesheet automation"
+        "Performed manual, exploratory, and Selenium-driven automated testing to evaluate system behavior and data consistency",
+        "Validated AI-generated outputs for accuracy across document review and legal operations",
+        "Provided detailed defect reports and feedback to improve product reliability across releases",
+        "Executed performance testing with JMeter to identify bottlenecks in critical workflows"
       ],
-      technologies: ["AI Testing", "Document Analysis", "Automation", "Performance Testing", "Model Validation"],
+      technologies: ["Azure Test Plans", "Selenium", "Postman", "JMeter", "Copilot AI Agents", "SQL"],
       category: "AI Platform",
       gradient: "from-primary to-accent"
     },
@@ -26,13 +26,12 @@ const Projects = () => {
       icon: <GraduationCap className="w-8 h-8 text-accent" />,
       description: "Worked as a QA Engineer on E-LearnPro, a web-based Learning Management System used by universities to manage courses, assessments, and student data. Ensured end-to-end quality through manual, automation, and API testing.",
       achievements: [
-        "Verified user registration and authentication workflows",
-        "Tested course creation and content upload functionality",
-        "Validated quiz and assessment systems with grading mechanisms",
-        "Ensured performance tracking and analytics accuracy",
-        "Conducted comprehensive API testing for backend services"
+        "Developed structured test plans and test cases in TestRail covering end-to-end QA processes",
+        "Validated user management, course creation, content delivery, and grading systems",
+        "Performed API testing, keyword-driven automation, and manual verification",
+        "Reproduced and documented defects in bug tracking software for efficient resolution"
       ],
-      technologies: ["LMS Testing", "API Testing", "User Management", "Assessment Systems", "Performance Analytics"],
+      technologies: ["TestRail", "API Testing", "Keyword Driven Automation", "Manual Testing", "Bug Tracking"],
       category: "Educational Platform",
       gradient: "from-accent to-primary"
     }
