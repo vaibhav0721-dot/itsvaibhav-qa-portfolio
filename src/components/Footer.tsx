@@ -21,7 +21,7 @@ const Footer = () => {
     },
     {
       icon: <Phone className="w-5 h-5" />,
-      href: "tel:+918770067658",
+      href: "tel:+918770067659",
       label: "Phone"
     }
   ];
