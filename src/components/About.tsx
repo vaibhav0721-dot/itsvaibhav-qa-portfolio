@@ -51,18 +51,19 @@ const About = () => {
               <h3 className="text-2xl font-bold mb-4 text-card-foreground">My Journey</h3>
               <div className="space-y-4 text-neutral-600">
                 <p>
-                  Completed my B.Tech in Computer Science from AKTU and jumped straight into the deep end — 
-                  owning quality for AI-powered legal platforms at Clifford Chance Business Services as a 
-                  Software Test Engineer.
+                  Completed my B.Tech in Computer Science from AKTU and quickly took ownership of testing 
+                  enterprise AI platforms at Clifford Chance Business Services — supporting AI adoption 
+                  and ensuring quality across multiple legal tech applications.
                 </p>
                 <p>
-                  I don't just find bugs — I lead test planning, design automation frameworks, and coordinate 
-                  releases across multiple applications. My keyword-driven framework cut regression time by 30%, 
-                  and I take full ownership of quality from sprint planning to production.
+                  I don't just find bugs — I lead test planning, build automation frameworks, and own 
+                  releases end-to-end. My keyword-driven framework cut regression time by 30%, and I 
+                  took full ownership of quality for several high-impact legal tech products from sprint 
+                  planning to production.
                 </p>
                 <p>
-                  Whether it's building Selenium automation, validating AI outputs, stress-testing APIs with 
-                  Postman, or running load tests in JMeter — I make sure nothing ships unless it's solid.
+                  From Selenium automation and AI output validation to API stress-testing with Postman 
+                  and performance profiling with JMeter — I ensure enterprise-grade quality at every layer.
                 </p>
               </div>
             </Card>
