@@ -27,9 +27,10 @@ const About = () => {
   ];
 
   const skills = [
-    "Quality Assurance", "Manual Testing", "Automated Testing", "API Testing", 
+    "Quality Assurance", "Manual Testing", "Automation Testing", "API Testing", 
     "Performance Testing", "Database Testing", "Agile Methodology", "Test Case Design",
-    "Regression Testing", "UI/UX Testing", "Cross-browser Testing", "Risk Assessment"
+    "Defect Management", "Exploratory Testing", "Selenium", "Azure DevOps",
+    "Power Automate", "Copilot AI Agents", "Test Management Tools"
   ];
 
   return (
@@ -38,8 +39,8 @@ const About = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 gradient-text">About Me</h2>
           <p className="text-xl text-neutral-600 max-w-3xl mx-auto leading-relaxed">
-            I'm a passionate QA Engineer with expertise in delivering high-quality software through 
-            comprehensive testing methodologies and a keen eye for detail.
+            QA Engineer with over a year of experience in legal AI, specializing in end-to-end testing 
+            of enterprise applications across manual, automation, API, and database layers.
           </p>
         </div>
 
@@ -50,18 +51,19 @@ const About = () => {
               <h3 className="text-2xl font-bold mb-4 text-card-foreground">My Journey</h3>
               <div className="space-y-4 text-neutral-600">
                 <p>
-                  Completed my Bachelor's in Computer Science Engineering from APJ Abdul Kalam 
-                  Technical University. I've gained extensive hands-on experience in software testing 
-                  through internships and apprenticeships.
+                  Completed my Bachelor of Technology in Computer Science Engineering from APJ Abdul Kalam 
+                  Technical University (AKTU). Currently working as a Software Test Engineer at Clifford 
+                  Chance Business Services, specializing in legal AI enterprise applications.
                 </p>
                 <p>
-                  My experience spans from manual testing to automated frameworks, API validation, 
-                  and performance testing. I've worked on diverse projects including AI-driven platforms 
+                  Designed structured test plans and cases in Azure DevOps and delivered a keyword-driven 
+                  automation framework that cut regression time by 30%. Skilled at analyzing user requirements, 
+                  writing clear defect reports, and collaborating in Agile teams.
+                </p>
+                <p>
+                  My experience spans manual testing, Selenium automation, API testing with Postman, 
+                  database testing with SQL, and performance testing with JMeter across AI-driven platforms 
                   and Learning Management Systems.
-                </p>
-                <p>
-                  I believe in continuous learning and staying updated with the latest testing methodologies 
-                  and tools to ensure the highest quality standards in software development.
                 </p>
               </div>
             </Card>

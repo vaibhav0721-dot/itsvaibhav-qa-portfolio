@@ -19,47 +19,47 @@ const Skills = () => {
       icon: <TestTube className="w-6 h-6 text-primary" />,
       skills: [
         { name: "Manual Testing", level: 95 },
-        { name: "Automated Testing", level: 85 },
+        { name: "Automation Testing", level: 85 },
         { name: "API Testing", level: 90 },
         { name: "Performance Testing", level: 80 },
-        { name: "Database Testing", level: 75 },
-        { name: "Regression Testing", level: 90 }
+        { name: "Database Testing", level: 85 },
+        { name: "Exploratory Testing", level: 90 }
       ]
     },
     {
       title: "Tools & Technologies",
       icon: <Settings className="w-6 h-6 text-accent" />,
       skills: [
+        { name: "Selenium", level: 85 },
         { name: "Postman", level: 90 },
         { name: "JMeter", level: 80 },
-        { name: "Azure DevOps", level: 85 },
+        { name: "Azure DevOps", level: 88 },
         { name: "Rally", level: 75 },
-        { name: "Chrome DevTools", level: 85 },
-        { name: "SQL SSMS", level: 80 }
+        { name: "SQL SSMS", level: 82 }
       ]
     },
     {
       title: "Technical Skills",
       icon: <Code2 className="w-6 h-6 text-primary" />,
       skills: [
-        { name: "HTML & CSS", level: 85 },
-        { name: "JavaScript", level: 80 },
+        { name: "HTML & JavaScript", level: 85 },
         { name: "SQL", level: 85 },
         { name: "Power BI", level: 70 },
-        { name: "Visual Studio", level: 75 },
-        { name: "Lighthouse", level: 80 }
+        { name: "Power Automate", level: 75 },
+        { name: "Copilot AI Agents", level: 78 },
+        { name: "Chrome DevTools", level: 85 }
       ]
     },
     {
       title: "Analytical Abilities",
       icon: <BarChart3 className="w-6 h-6 text-accent" />,
       skills: [
-        { name: "Risk Assessment", level: 90 },
-        { name: "Data Analysis", level: 85 },
+        { name: "Test Planning", level: 90 },
+        { name: "Risk Assessment", level: 88 },
+        { name: "Root Cause Analysis", level: 85 },
         { name: "Problem Solving", level: 95 },
-        { name: "Pattern Recognition", level: 88 },
         { name: "Attention to Detail", level: 98 },
-        { name: "Quality Assurance", level: 95 }
+        { name: "Pattern Recognition", level: 88 }
       ]
     }
   ];
@@ -83,7 +83,7 @@ const Skills = () => {
 
   const frameworks = [
     "Agile/Scrum", "Keyword Driven Framework", "DevOps", "CI/CD", 
-    "Test-Driven Development", "Behavior-Driven Development"
+    "Test-Driven Development", "Defect Management", "Test Management Tools"
   ];
 
   return (

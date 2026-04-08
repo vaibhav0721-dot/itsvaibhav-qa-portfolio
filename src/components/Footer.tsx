@@ -21,7 +21,7 @@ const Footer = () => {
     },
     {
       icon: <Phone className="w-5 h-5" />,
-      href: "tel:+918770067658",
+      href: "tel:+918770067659",
       label: "Phone"
     }
   ];
@@ -37,7 +37,7 @@ const Footer = () => {
             </h3>
             <div className="flex items-center justify-center md:justify-start gap-2 text-neutral-400">
               <span className="text-lg">🔍</span>
-              <span className="text-sm sm:text-base">QA Engineer & Software Testing Specialist</span>
+              <span className="text-sm sm:text-base">Software Test Engineer</span>
               <span className="text-lg">⚡</span>
             </div>
           </div>

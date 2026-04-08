@@ -69,8 +69,8 @@ const Contact = () => {
     {
       icon: <Phone className="w-6 h-6 text-primary" />,
       title: "Phone",
-      value: "+91-8770067658",
-      href: "tel:+918770067658"
+      value: "+91-8770067659",
+      href: "tel:+918770067659"
     },
     {
       icon: <Mail className="w-6 h-6 text-accent" />,
@@ -157,7 +157,7 @@ const Contact = () => {
                 <Button 
                   variant="outline" 
                   className="flex-1"
-                  onClick={() => window.location.href = 'tel:+918770067658'}
+                  onClick={() => window.location.href = 'tel:+918770067659'}
                 >
                   <Phone className="w-4 h-4" />
                   Call Now

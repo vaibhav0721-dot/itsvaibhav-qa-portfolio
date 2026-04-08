@@ -54,13 +54,12 @@ const Hero = () => {
           <div className="flex items-center justify-center gap-3 mb-4">
             <span className="text-3xl sm:text-4xl">🔍</span>
             <p className="text-lg sm:text-xl md:text-2xl font-medium text-white/90">
-              QA Engineer & Software Testing Specialist
+              Software Test Engineer
             </p>
             <span className="text-3xl sm:text-4xl">⚡</span>
           </div>
           <p className="text-base sm:text-lg mb-6 sm:mb-8 text-white/80 max-w-2xl mx-auto leading-relaxed px-4">
-            Detail-oriented QA professional with expertise in manual and automated testing, 
-            API testing, and performance optimization. Passionate about delivering high-quality software solutions.
+            QA Engineer with over a year of experience in legal AI, specializing in end-to-end testing of enterprise applications across manual, automation, API, and database layers.
           </p>
         </div>
         
@@ -68,7 +67,7 @@ const Hero = () => {
         <div className="animate-fade-in-up-delay flex flex-wrap justify-center gap-4 sm:gap-6 mb-6 sm:mb-8 text-sm sm:text-base text-white/90 px-4">
           <div className="flex items-center gap-2">
             <Phone className="w-4 h-4" aria-hidden="true" />
-            <span className="break-all sm:break-normal">+91-8770067658</span>
+            <span className="break-all sm:break-normal">+91-8770067659</span>
           </div>
           <div className="flex items-center gap-2">
             <Mail className="w-4 h-4" aria-hidden="true" />
