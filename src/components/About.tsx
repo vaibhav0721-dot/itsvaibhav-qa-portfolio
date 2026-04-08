@@ -39,8 +39,8 @@ const About = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 gradient-text">About Me</h2>
           <p className="text-xl text-neutral-600 max-w-3xl mx-auto leading-relaxed">
-            QA Engineer with over a year of experience in legal AI, specializing in end-to-end testing 
-            of enterprise applications across manual, automation, API, and database layers.
+            QA Engineer who takes ownership of quality — from designing test strategies to coordinating releases. 
+            I lead testing efforts on AI-powered enterprise platforms, driving a 30% reduction in regression time through automation.
           </p>
         </div>
 
