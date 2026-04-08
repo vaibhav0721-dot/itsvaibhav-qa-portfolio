@@ -69,8 +69,8 @@ const Contact = () => {
     {
       icon: <Phone className="w-6 h-6 text-primary" />,
       title: "Phone",
-      value: "+91-8770067658",
-      href: "tel:+918770067658"
+      value: "+91-8770067659",
+      href: "tel:+918770067659"
     },
     {
       icon: <Mail className="w-6 h-6 text-accent" />,
