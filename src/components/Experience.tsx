@@ -29,7 +29,7 @@ const Experience = () => {
       company: "Cuvette Tech",
       location: "Remote",
       duration: "Jun 2024 – Dec 2024",
-      type: "Internship",
+      type: "",
       achievements: [
         "Performed quality assurance testing on web applications built with HTML, CSS, JavaScript, and React.js, applying modern testing methodologies",
         "Designed and executed detailed manual test cases covering functional, UI, negative, and edge-case scenarios, uncovering critical defects",
