@@ -47,7 +47,7 @@ const Experience = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 gradient-text">Professional Experience</h2>
           <p className="text-xl text-neutral-600 max-w-3xl mx-auto">
-            My journey in quality assurance, from internships to professional roles, 
+            My journey in quality assurance across enterprise Legal Tech and AI-powered applications, 
             building expertise in modern testing methodologies.
           </p>
         </div>
