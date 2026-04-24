@@ -25,7 +25,7 @@ const Experience = () => {
       skills: ["Selenium", "Azure DevOps", "Keyword Driven Framework", "API Testing", "Performance Testing", "Agile", "JMeter", "Postman", "Copilot AI Agents"]
     },
     {
-      title: "QA Engineer, Intern",
+      title: "QA Engineer",
       company: "Cuvette Tech",
       location: "Remote",
       duration: "Jun 2024 – Dec 2024",
