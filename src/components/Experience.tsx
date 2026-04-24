@@ -29,7 +29,7 @@ const Experience = () => {
       company: "Cuvette Tech",
       location: "Remote",
       duration: "Jun 2024 – Dec 2024",
-      type: "Internship",
+      type: "",
       achievements: [
         "Performed quality assurance testing on web applications built with HTML, CSS, JavaScript, and React.js, applying modern testing methodologies",
         "Designed and executed detailed manual test cases covering functional, UI, negative, and edge-case scenarios, uncovering critical defects",
@@ -76,12 +76,14 @@ const Experience = () => {
                     </div>
                   </div>
                 </div>
-                <Badge 
-                  variant="secondary"
-                  className="bg-primary/10 text-primary border-primary/20 self-start"
-                >
-                  {exp.type}
-                </Badge>
+                {exp.type && (
+                  <Badge 
+                    variant="secondary"
+                    className="bg-primary/10 text-primary border-primary/20 self-start"
+                  >
+                    {exp.type}
+                  </Badge>
+                )}
               </div>
 
               {/* Achievements */}
