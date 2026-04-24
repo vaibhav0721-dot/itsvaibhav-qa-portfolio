@@ -76,12 +76,14 @@ const Experience = () => {
                     </div>
                   </div>
                 </div>
-                <Badge 
-                  variant="secondary"
-                  className="bg-primary/10 text-primary border-primary/20 self-start"
-                >
-                  {exp.type}
-                </Badge>
+                {exp.type && (
+                  <Badge 
+                    variant="secondary"
+                    className="bg-primary/10 text-primary border-primary/20 self-start"
+                  >
+                    {exp.type}
+                  </Badge>
+                )}
               </div>
 
               {/* Achievements */}
