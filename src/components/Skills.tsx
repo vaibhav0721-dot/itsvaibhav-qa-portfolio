@@ -66,18 +66,18 @@ const Skills = () => {
 
   const certifications = [
     {
-      title: "Google Data Analytics Certificate",
-      issuer: "Coursera",
-      year: "2024",
+      title: "Ethics of AI",
+      issuer: "University of Helsinki",
+      year: "2025",
       icon: <Award className="w-5 h-5 text-primary" />,
-      description: "Completed 8 practical case studies involving SQL, data cleaning, dashboards, and presentations"
+      description: "Certification focused on responsible AI, ethical AI adoption, bias evaluation, and trustworthy AI systems for enterprise environments"
     },
     {
-      title: "Code Gladiator Semi-Finalist",
-      issuer: "TechGig",
-      year: "2024",
-      icon: <Trophy className="w-5 h-5 text-accent" />,
-      description: "Selected as Semi-Finalist in India's largest coding competition, showcasing strong problem-solving skills"
+      title: "Generative AI Literacy",
+      issuer: "IBM",
+      year: "2025",
+      icon: <Award className="w-5 h-5 text-accent" />,
+      description: "Covered core concepts of Generative AI, LLM behaviour, prompt engineering, responsible AI usage and enterprise AI implementation"
     }
   ];
 
