@@ -58,8 +58,8 @@ const Hero = () => {
             </p>
             <span className="text-3xl sm:text-4xl">⚡</span>
           </div>
-          <p className="text-base sm:text-lg mb-6 sm:mb-8 text-white/80 max-w-2xl mx-auto leading-relaxed px-4">
-            QA Engineer with 1+ year of experience testing enterprise AI platforms and supporting AI adoption across the firm. Built a keyword-driven automation framework that cut regression time by 30%, while leading test planning and owning releases across multiple products.
+          <p className="text-base sm:text-lg mb-6 sm:mb-8 text-white/80 max-w-3xl mx-auto leading-relaxed px-4">
+            Software Test Engineer specialising in end-to-end testing of enterprise Legal Tech and AI-powered applications across manual, automation, API, database, and performance testing layers. Built and maintained a keyword-driven automation framework that reduced regression effort and improved release confidence across business-critical systems. Experienced in validating AI-generated outputs, testing prompt-response behaviour, and ensuring reliability of legal AI workflows across document intelligence, legal operations, and workflow automation platforms. Strong expertise in Power Automate and Microsoft Copilot AI Agents for process automation, release support, and operational efficiency improvements. Trusted to bridge QA, product, and legal stakeholders by translating testing risks into business impact, supporting release decisions, and maintaining high-quality delivery in Agile environments.
           </p>
         </div>
         
